@@ -1,0 +1,6 @@
+{
+  "name": "英文單字翻譯儲存庫",
+  "description": "查看英文單字 翻譯成繁體中文、音標、發音、例句與未來使用場景，並支援將單字清單分類收藏與同步至 Google 試算表 (Excel)。",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
