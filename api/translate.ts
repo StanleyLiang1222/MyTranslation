@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { fetchGoogleTranslate, generateOfflineFallback } from "../lib/translate";
+import { fetchGoogleTranslate, generateOfflineFallback } from "../lib/translate.js";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== "POST") {

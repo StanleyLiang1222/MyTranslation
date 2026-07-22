@@ -2,7 +2,7 @@ import express from "express";
 import path from "path";
 import { createServer as createViteServer } from "vite";
 import dotenv from "dotenv";
-import { fetchGoogleTranslate, generateOfflineFallback } from "./lib/translate";
+import { fetchGoogleTranslate, generateOfflineFallback } from "./lib/translate.js";
 
 dotenv.config();
 
